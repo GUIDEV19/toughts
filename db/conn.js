@@ -1,8 +1,8 @@
 import { Sequelize } from "sequelize";
 
-const sequelize = new Sequelize('toughts', 'guilherme', 'admin', {
-    host: 'localhost',
-    port: 4915,
+const sequelize = new Sequelize('meuspr86_toughts', 'meuspr86_guilherme', "7L}MzNu;K(j{", {
+    host: 'br946.hostgator.com.br',
+    port: 3306,
     dialect: 'mysql',
 });
 
