@@ -1,7 +1,8 @@
 import { Sequelize } from "sequelize";
+require('dotenv').config()
 
-const sequelize = new Sequelize('meuspr86_toughts', 'meuspr86_guilherme', "7L}MzNu;K(j{", {
-    host: 'br946.hostgator.com.br',
+const sequelize = new Sequelize('meuspr86_toughts', process.env.USER, process.env.SENHA, {
+    host: process.env.HOST,
     port: 3306,
     dialect: 'mysql',
 });

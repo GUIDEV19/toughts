@@ -72,5 +72,5 @@ app.get('/', ToughtsController.showToughts)
 
 
 conn.sync(/* {force: true} */).then(
-    app.listen(process.env.PORT || 3333)
+    app.listen(3333)
 ).catch(err => console.log(err));
